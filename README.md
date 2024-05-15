@@ -1,6 +1,9 @@
 ## Automate EC2 volume creation process
 
-*Steps for simply running this script on any machine:*
+***Steps for simply running this script on any machine:***
+
+_Configure AWS credentials using AWS CLI [(if not configured already)](https://docs.aws.amazon.com/cli/latest/reference/configure/)._
+
   ```
 # install pipenv  (if not already exists)
 pip install pipenv
@@ -11,6 +14,7 @@ pipenv install
 # run the script
 python script.py
 ```
+
 ### Setting Up The Cron Job
 For EC2 volume creation automation process, we have to create a Cron job so that the script runs after a certain time automatically.
 
